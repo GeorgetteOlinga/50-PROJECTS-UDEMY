@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Netflix Mobile Navigation</title>
+  </head>
+  <body>
+
+    <button  class="nav-btn open-btn">
+
+      <i class="fas fa-bars"></i> <!---this is the amburger button on the top left side-->
+    </button>
+
+    <img
+      src="https://www.techdaily.com.au/b2/wp-content/uploads/2015/03/Netflix_Logo_Print_FourColorCMYK.png"
+      alt="Logo"
+      class="logo"
+    /><!---this is main logo in the center of the page-->
+
+    <p class="text">Mobile Navigation</p> <!--the text of the middle of the page-->
+
+    <div class="nav nav-black"><!--bellow are the 3 vertical bars when open the amburger button-->
+      <div class="nav-btn nav-red">
+        <div class="nav nav-white">
+          <button class="nav-btn close-btn">
+            <i class="fas fa-times"></i> <!---"fas fa-times" is the name of the x icon also known as closing button--->
+          </button>
+          <img
+            src="https://www.techdaily.com.au/b2/wp-content/uploads/2015/03/Netflix_Logo_Print_FourColorCMYK.png"
+            alt="Logo"
+            class="logo"
+          /><!--the logo in the amburger button-->
+
+          <ul class="list">
+            <li><a href="#">teams</a></li><!--# is just a place holder. if i want to navigate to another place, just add the link and remove the #-->
+            <li><a href="#">locations</a></li>
+            <li><a href="#">life at Netflix</a></li>
+
+            <li>
+              <ul>
+                <li><a href="#">Netflix Culture Memo</a></li>
+                <li><a href="#">Work Life Balance</a></li>
+                <li><a href="#">Inclusion & Diversity</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
